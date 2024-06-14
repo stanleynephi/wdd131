@@ -76,6 +76,15 @@ main {
     grid-template-rows: 1fr;
     gap: 25px;
 
+
+    h1,
+    h2 {
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+        text-transform: uppercase;
+    }
+
 }
 
 footer {
@@ -112,6 +121,11 @@ footer {
         padding: 20px;
     }
 
+    img {
+        width: 150px;
+        height: 200px;
+    }
+
 }
 
 
@@ -130,15 +144,19 @@ footer {
         padding: 20px;
     }
 
+    img {
+        width: 200px;
+        height: 150px;
+    }
+
 }
 
 
 
 .card:nth-child(2) {
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-rows: 30px;
     color: black;
 }
 
