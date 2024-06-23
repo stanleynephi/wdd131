@@ -76,9 +76,9 @@ header {
     .open {
         position: fixed;
         top: -23px;
-        right: 79px;
+        right: 49px;
         height: 98%;
-        width: 63%;
+        width: 73%;
         padding: 10px;
         background-color: black;
         transition: 0.5s;
